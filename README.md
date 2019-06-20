@@ -13,10 +13,10 @@ Non-functional requirements express conditions that the software must meet or sp
 ### Numbered description
 The narrative of what the system and the user performed is described through a series of numbered steps.
 
-### Diagrama de Caso de Uso
+### Use case diagram
 The use case diagram describes the proposed functionalities for a new system that will be designed, being an excellent tool for surveying the functional requirements of the system.
 Use cases are typically related to "actors" where an actor is a human or machine that interacts with the system to perform an activity. In turn, use cases are specifications of a set of actions performed by a system that contains an observable result.
 A use case is represented by an ellipse, with the use case name inside or below, so if there are system boundaries in the diagram, the use case must be inside.
 
-### Diagrama de Classe
+### Class diagram
 The class diagram is a very useful type of modeling for the development of systems, since it defines all the classes that the system needs to have and is the basis for the construction of communication, sequence and state diagrams. In programming, a class diagram is a representation of the structure and relations of the classes that serve as a model for objects.
