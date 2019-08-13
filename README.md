@@ -5,9 +5,9 @@ Tic-tac-toe, or noughts and crosses, is a simple game created in C++.
 
 Business rules are policies, conditions, or system constraints that must be considered in the execution of your processes. Business rules often influence the behavior of certain use cases.
 
-* Se usuário escolher qualquer um dos 4 cantos ou uma das casas centrais (horizontal e vertical), o sistema segue a sequência para contrapor escolha: centro, direita, esquerda, em cima, em baixo, diagonal principal ou diagonal secundária.
+* If the user chooses one of the corners or centerpieces of the edges, the system chooses a counter position according to the sequence: center, first square around the user's choice (right, left, top, bottom or diagonals).
 
-* Se usuário escolher o centro do tabuleiro, o sistema segue a sequência para contrapor escolha: diagonal principal, diagonal secundária, direita, esquerda, em cima ou em baixo.
+* If the user chooses the center of the board, the system follows the counter sequence of the user's choice: first square around the user's choice (right, left, top, bottom or diagonals).
 
 
 ### Numbered description
