@@ -14,15 +14,15 @@ Suppose the board below represents the player's choice:
 
 
 If the user chooses:
-* 1, the system chooses: 2 (i+1, j) or 4 (i, j+1)
-* 2, the system chooses: 1 (i-1, j), 3 (i+1, j) or 5 (i, j+1)
-* 3, the system chooses: 2 (i-1, j) or 6 (i, j+1)
-* 4, the system chooses: 1 (i, j-1), 5 (i+1, j) or 7 (i, j+1) 
-* 5, the system chooses: 1 (i-1, j-1), 3 (i+1, j-1), 7 (i-1, j+1) or 9 (i+1, j+1)
-* 6, the system chooses: 3 (i, j-1), 5 (i-1, j) or 9 (i, j+1)
-* 7, the system chooses: 4 (i, j-1) or 8 (i+1, j)
-* 8, the system chooses: 5 (i, j-1), 7 (i-1, j) or 9 (i+1, j)
-* 9, the system chooses: 6 (i, j-1) or 8 (i-1, j)
+* 1, the system chooses: 2 or 4
+* 2, the system chooses: 1, 3 or 5
+* 3, the system chooses: 2 or 6
+* 4, the system chooses: 1, 5 or 7
+* 5, the system chooses: 1, 3, 7 or 9
+* 6, the system chooses: 3, 5 or 9
+* 7, the system chooses: 4 or 8
+* 8, the system chooses: 5, 7 or 9
+* 9, the system chooses: 6 or 8
 
 If there is the sequence:
 * 1 and 2, mark 3
