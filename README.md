@@ -5,10 +5,34 @@ Tic-tac-toe, or noughts and crosses, is a simple game created in C++.
 
 Business rules are policies, conditions, or system constraints that must be considered in the execution of your processes. Business rules often influence the behavior of certain use cases.
 
-* If the user chooses one of the corners or centerpieces of the edges, the system chooses a counter position according to the sequence: center, first square around the user's choice (right, left, top, bottom or diagonals).
+Suppose the board below represents the player's choice:
 
-* If the user chooses the center of the board, the system follows the counter sequence of the user's choice: first square around the user's choice (right, left, top, bottom or diagonals).
+| 1  | 2  | 3  |
+|---|---|---|
+| 4  |  5 |  6 |
+|  7 |  8 |  9 |
 
+
+If the user chooses:
+* 1, the system chooses: 2 (i+1, j) or 4 (i, j+1)
+* 2, the system chooses: 1 (i-1, j), 3 (i+1, j) or 5 (i, j+1)
+* 3, the system chooses: 2 (i-1, j) or 6 (i, j+1)
+* 4, the system chooses: 1 (i, j-1), 5 (i+1, j) or 7 (i, j+1) 
+* 5, the system chooses: 1 (i-1, j-1), 3 (i+1, j-1), 7 (i-1, j+1) or 9 (i+1, j+1)
+* 6, the system chooses: 3 (i, j-1), 5 (i-1, j) or 9 (i, j+1)
+* 7, the system chooses: 4 (i, j-1) or 8 (i+1, j)
+* 8, the system chooses: 5 (i, j-1), 7 (i-1, j) or 9 (i+1, j)
+* 9, the system chooses: 6 (i, j-1) or 8 (i-1, j)
+
+If there is the sequence:
+* 1 and 2, mark 3
+* 5 and 6, mark 4
+* 7 and 8, mark 9
+* 1 and 4, mark 7
+* 5 and 8, mark 2
+* 3 and 6, mark 9
+* 3 and 5, mark 7
+* 5 and 9, mark 1
 
 ### Numbered description
 
