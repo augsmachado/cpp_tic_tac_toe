@@ -24,15 +24,6 @@ If the user chooses:
 * 8, the system chooses: 5, 7 or 9
 * 9, the system chooses: 6 or 8
 
-If there is the sequence:
-* 1 and 2, mark 3
-* 5 and 6, mark 4
-* 7 and 8, mark 9
-* 1 and 4, mark 7
-* 5 and 8, mark 2
-* 3 and 6, mark 9
-* 3 and 5, mark 7
-* 5 and 9, mark 1
 
 ### Numbered description
 
